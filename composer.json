@@ -1,0 +1,29 @@
+{
+    "name": "wangkaibo/quickphp",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "wangkaibo",
+            "email": "wkaiboo@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.22",
+        "noahbuscher/macaw": "dev-master",
+        "illuminate/database": "~5.1",
+        "predis/predis": "~1.1",
+        "xiaoler/blade": "^0.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

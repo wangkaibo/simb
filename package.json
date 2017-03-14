@@ -1,0 +1,25 @@
+{
+  "name": "simb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangkaibo/simb.git"
+  },
+  "author": "wangkaibo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangkaibo/simb/issues"
+  },
+  "homepage": "https://github.com/wangkaibo/simb#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.6.0"
+  }
+}
