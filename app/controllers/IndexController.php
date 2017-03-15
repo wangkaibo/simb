@@ -16,7 +16,7 @@ class IndexController extends BaseController
 
 	public function index()
 	{
-		echo view('index');
+		echo view('index');exit;
 	}
 
 	public function store()
